@@ -1,0 +1,13 @@
+let firstFavNum = 19;
+let secondFavNum = 11;
+console.log("Greater than:", firstFavNum > secondFavNum);
+console.log("Less than:", firstFavNum < secondFavNum);
+console.log("Greater than or Equal to:", firstFavNum >= secondFavNum);
+console.log("Less than or Equal to:", firstFavNum <= secondFavNum);
+console.log("Strict equality:", firstFavNum === secondFavNum);
+console.log("Loose inequality:", firstFavNum == secondFavNum);
+console.log("Strict inequality:", firstFavNum !== secondFavNum);
+console.log("Loose inequality:", firstFavNum != secondFavNum);
+console.log("AND:", firstFavNum > 14 && secondFavNum < 19);
+console.log("OR:", firstFavNum < 11 || secondFavNum < 19);
+console.log("NOT:", !(firstFavNum === secondFavNum));
